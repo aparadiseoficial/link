@@ -36,11 +36,8 @@ body {
   margin: 1rem 0;
   padding: 0.6rem 1rem;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(0px);
   border-radius: 8px;
   transition: background 0.3s, transform 0.3s;
-  transform-style: preserve-3d;
-  perspective: 500px;
   box-shadow: 0 0 0.8rem rgba(255, 255, 255, 0.12);
 }
 
@@ -91,14 +88,13 @@ body {
   background: #61c63a;
 }
 
-/* Novo botão - HardRock Café */
 .social__links ul .hardrock:hover {
   background: #e69500;
 }
 
 @media only screen and (max-width: 549px) {
   .container {
-    width: 90vw;
+    width: 95vw;
   }
 
   .social__links ul li {
@@ -106,10 +102,15 @@ body {
   }
 
   .social__links ul li a i {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .social__links ul li a {
     font-size: 0.95rem;
+  }
+
+  .head__section img {
+    width: 12rem;
+    height: 12rem;
   }
 }
